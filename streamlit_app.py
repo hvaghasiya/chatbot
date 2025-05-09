@@ -23,7 +23,7 @@ def get_chatbot_response(user_message):
 # Main UI
 def main():
     st.set_page_config(page_title="N8n Chatbot", layout="centered")
-    st.title("Website Chatbot (Info about company, scheduling, query resolution)")
+    st.title("Demo appointment booking chatbot")
  
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
